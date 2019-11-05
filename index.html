@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/my-logo.png" type="image/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/proj2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/employments.js"></script>
+    <script src="js/myscript.js"></script>
+    <script src="js/my-projects.js"></script>
+    <script src="js/navbar.js"></script>
+</head>
+
+
+<body onresize="resize_function()" onload="resize_function()">
+
+<div id="navbar">
+    <script> MyNavBar(); </script>
+</div>
+
+<div class="row" id="main-area">
+<div class="row" id="main-content">
+
+    <div class="row about-me">
+        <div class="row row-0">
+            <h1 class="heading" id="about-me">About Me</h1>
+        </div>
+        <div class="row row-1">
+            <div class="row row-1">
+                <img class="image circle" src="img/me-kae-sm.jpg">
+            </div>
+            <div class="row row-2">
+                <p class="profession">
+                    <h2>Kenneth A. Esdaile</h2>
+                </p>
+            </div>
+            <div class="row row-2">
+                <p class="profession">
+                    software developer
+                </p>
+            </div>
+            <div class="row row-3">
+                <a class="contact" href="">
+                    contact me
+                </a>
+            </div>
+        </div>
+        <div class="row row-2">
+            <div class="row outline cntr-elem"></div>
+        </div>
+        <div class="row row-3">
+            <div class="row row-1">
+                <p class="discription cntr-elem">
+                    Hello! My name is Kenneth Anthony Esdaile. I am a sofware engineer. Place of orgin, New York City. Welcome to my profolio. I build software using my powers of computer science, powers That I have gromed and nurture over the years. Of the things I have built you will come to know, one of which includes this very website. Feel free to browse around and indulge your self with the things i've done and is currently working on.
+                </p>
+            </div>
+        </div>
+    </div>
+         
+    <div class="row separator"></div>
+
+    <div class="row" name="repos">
+        <div class="row education-and-skills">
+            <div class="col col-1 area-skills">
+                <div class="row row-1">
+                    <h1 class="heading">Skills</h1>
+                </div>
+                <div class="row row-2">
+                    <div class="row skills">
+                        <div class="row row-1">
+                            <div class="row row-1" > C/C++      </div>
+                            <div class="row row-2" > Java       </div>
+                            <div class="row row-3" > GLSL       </div>
+                            <div class="row row-4" > OpenGL 4.0 </div>
+                            <div class="row row-5" > C#         </div>
+                        </div>
+                        <div class="row spacer"></div>
+                        <div class="row row-2">
+                            <div class="row row-1" > HTML & CSS </div>
+                            <div class="row row-2" > Javascript </div>
+                            <div class="row row-3" > PHP        </div>
+                            <div class="row row-4" > Python     </div>
+                            <div class="row row-5" > SQL        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-2 area-education">
+                <div class="row">
+                    <h1 class="heading">Education</h1>
+                </div> 
+                <div class="row row-2 education">
+                    <div class="row university">
+                        <div class="col col-1 date">
+                            <time class="row">
+                                <p>
+                                    <span class="month">Aug</span>
+                                    -
+                                    <span class="year">2019</span>
+                                </p>
+                            </time>
+                        </div>
+                        <div class="col col-2 details" >
+                            <div class="row row-1 degree">
+                                <p>
+                                    Bachelor's Degree In Computer Science
+                                </p>
+                            </div>
+                            <div class="row row-2 name">
+                                <p>
+                                    Queens College, City University of New York
+                                </p>
+                            </div>
+                            <address class="row row-3 address">
+                                <p>
+                                    65-30 Kissena Blvd | Queens, NY, 11367
+                                </p>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="row university">
+                        <div class="col col-1 date">
+                            <time class="row">
+                                <p>
+                                    <span class="month">Aug</span>
+                                    -
+                                    <span class="year">2019</span>
+                                </p>
+                            </time>
+                        </div>
+                        <div class="col col-2 details" >
+                            <div class="row row-1 degree">
+                                <p>
+                                    Bachelor's Degree In Computer Science
+                                </p>
+                            </div>
+                            <div class="row row-2 name">
+                                <p>
+                                    Queens College, City University of New York
+                                </p>
+                            </div>
+                            <address class="row row-3 address">
+                            <p>65-30 Kissena Blvd | Queens, NY, 11367</p>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row separator"></div>
+    <div class="row separator"></div>
+
+    <div class="row featured-projects" name="repos"> 
+        <h1 class="row heading" id="my-projects" >
+            Featured Project
+        </h1>
+        <script>
+            write_my_projects();
+        </script>
+    </div>
+
+    <div class="row separator"></div>
+    <div class="row separator"></div>
+
+    <div class="row relevent-employments">
+        <h1 class="heading" id="my-employments">Relevent Employments</h1>
+        <div class="row separator"></div>
+        <script>
+            write_occupations();
+        </script>
+    </div>  
+
+</div> <!-- end of div -> 'main-content; -->
+</div> <!-- end of div -> 'main-area; -->
+
+
+
+<div class="row separator"></div>
+ 
+<div class="row foot-note">
+    <div class="row">
+        Designed & created by Kenneth A Esdaile. Oct-2019
+    </div>
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</html>
