@@ -124,11 +124,7 @@ AddProjects
 ,   [ ]
 ,   "proj-url"
 ,   "proj-img"
-,   "This was a final project for my Intro to Computer Graphics course " +
-    "at Queens College.  For the final project everyone was free to their own thing "   +
-    "using what they’ve learn throughout the course. I did a scene base on Christmas, " +
-    "since it was that time of the year. It supports a free camera with rotation, so "  +
-    "your able to move around in 3D space in any direction." 
+,   "Since my OBJ File Parser, I need a way to load 3D Animations into my 3D scene. I wanted to use a common file extension. One that is supported in 3D modeling program Blender. I decided to go with the Collada file format, because it is in XML, and I had already written an XML parser. The Collada parser parses geometries, cameras, lights, controllers, animations, and scene data. Trying to get the animation part to animate properly was a difficult task. It took at least 3 attempts before figuring out that the problem was an error with my quaternion rotation." 
 );
 
 AddProjects
@@ -150,7 +146,7 @@ AddProjects
 ,   [ ]
 ,   "proj-url"
 ,   "proj-img"
-,   "Back when I first started teaching my self 3D graphics programming for game development, I needed away to render complex geometry. I watch this video tutorial on how to parser 3D geometric data from a file with extension obj. An OBJ parser was one of the first parser I have ever written.." 
+,   "This is one of the first file parser I have ever constructed. This project is a simple utility to be used with my 3D rendering projects. It is a simple parser to load complex 3D model aside form the basic shapes my program generates. It loads OBJ files .obj mesh objects and .mtl materials objects." 
 );
 
 
