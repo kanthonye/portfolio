@@ -97,7 +97,7 @@ AddProjects
 ( 
     "Programming Language Interpreter"
 ,   { month: "May", year:  "2019" }
-,   [ "C++", "Java" ]
+,   [ "C++" ]
 ,   [ { icon: "github", url: "https://github.com/kanthonye/school-projects/tree/master/qc/CS316/Interpreter" } ]
 ,   "https://github.com/kanthonye/school-projects/tree/master/qc/CS316/Interpreter"
 ,   "img/proj-interpreter-316.png"
