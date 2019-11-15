@@ -165,5 +165,5 @@ AddProjects
     "this template theme, which I've always loved. The "+
     "<a href=\"https://artwork-template-dark.blogspot.com/\" target=\"_blank\">Dark Version</a>. "+
     "Oh! If your wonder about My Blog Of Arts, "+
-    "<a href=\"http://kaearts.blogspot.com/\" target=\"_blank\">click here</a>." 
+    "<a href=\"http://kaearts.blogspot.com/\" target=\"_blank\">click here</a>."
 );
