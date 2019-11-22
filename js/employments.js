@@ -88,16 +88,15 @@ function write_occupations()
 }
 
 add_employment
-( "Software Engineer Intern"
+( "Wed Developer Intern"
 , "LaGuardia Community College"
 , "31-10 Thomson Ave | Long Island City, NY 11101"
 , "Jul", 2014
 , "Sep", 2014
 , [
-  "Use HTML and CSS to add a more life to the current user interface.",
-  "Self learn PHP, Javascript, and some SQL.",
-  "Use JavaScript to add authentication to online survey applications, and make sure required fields are filled before before using submitting forms via PHP and SLQ.",
-  "Develope an hourly base timing system. Display weekly results of tutor time spent and total time in a tubular form." 
+  "Using HTML and CSS to revamp the college tutor website by enhancing its user’s interface.",
+  "Adding error prompting / authentication to online surveys with JavaScript.",
+  "Developing an hourly base time system, to track the tutor time spent with students, and display results in a tubular form." 
 ] );
 
 
