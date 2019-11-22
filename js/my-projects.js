@@ -34,7 +34,7 @@ function write_my_projects()
         document.write( "        </time>" );
         document.write( "    </div>" );
         document.write( "    <div class=\"area-image\">" );
-        document.write( "        <a class=\"row row-1\" href=\"#\">" );
+        document.write( "        <a class=\"row row-1\" href=\""+ proj.url +"\">" );
         document.write( "            <img class=\"image circle\" src=\""+ proj.img +"\" onerror=\"this.src='img/no-image.png'\" />");
         document.write( "        </a>" );
         document.write( "    </div>" );
