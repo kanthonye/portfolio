@@ -104,6 +104,18 @@ AddProjects
 ,   "My Principles of Programming Languages course project. Before taking this course, I use to write brute force parsers. By brute force parsers I mean parsing character by character line by line looking for special characters or phrases. Its harder to do it this way, and not scalable. This course thought me how to use DFAs to build parsers to parse any programming, script, or markup language plus an interpreter to execute instruction from that language. This was one of the most fun and exciting school projects I have done. There was a lot of enlightenment happening with me in this course. And if you know me, you know I am into game development, and like doing things from scratch. With the new powers I have gained, I can write my own scripting language along with parser and interpreter for my other projects more efficiently."
 );
 
+
+AddProjects
+( 
+    "Diamond Sqaure Algorithm"
+,   { month: "Oct", year:  "2018" }
+,   [ "C++" ]
+,   [ { icon: "github", url: "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp" } ]
+,   "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp"
+,   "img/dsa.tga"
+,   "" 
+);
+
 AddProjects
 ( 
     "interactive 3D scene (Christmas Theme)"
