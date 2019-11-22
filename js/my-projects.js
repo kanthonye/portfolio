@@ -112,7 +112,7 @@ AddProjects
 ,   [ { icon: "github", url: "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp" } ]
 ,   "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp"
 ,   "img/dsa.jpg"
-,   "Generate a tga height map image using the diamond sqaure algorithm to generate a noise map." 
+,   "Using the diamond square algorithm approach to generate a gray scale tga image file, which serves as a height map for terrain generation." 
 );
 
 AddProjects
