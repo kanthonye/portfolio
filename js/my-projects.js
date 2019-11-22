@@ -112,7 +112,7 @@ AddProjects
 ,   [ { icon: "github", url: "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp" } ]
 ,   "https://github.com/kanthonye/my-projects/blob/master/DSA/main.cpp"
 ,   "img/dsa.jpg"
-,   "" 
+,   "Generate a tga height map image using the diamond sqaure algorithm to generate a noise map." 
 );
 
 AddProjects
