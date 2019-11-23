@@ -14,7 +14,7 @@ var navbar_links =
     },
     {
         id:"resume",
-        url:"2019_08_Resume_KAE_R.pdf",
+        url:"2019_08-Resume-KAE-WEB.pdf",
     },
 ];
 
