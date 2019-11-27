@@ -28,17 +28,17 @@ function write_my_projects()
         {
             document.write( "<div class=\"row project-r\">" );
         }
-        document.write( "    <div class=\"row area-date\">" );
-        document.write( "        <time class=\"row date\" datetime=\"2011-11\" >" );
-        document.write( "            "+ proj.date.month +"-"+ proj.date.year );
-        document.write( "        </time>" );
-        document.write( "    </div>" );
         document.write( "    <div class=\"area-image\">" );
         document.write( "        <a class=\"row row-1\" target=\"_blank\" href=\""+ proj.url +"\">" );
         document.write( "            <img class=\"image circle\" src=\""+ proj.img +"\" onerror=\"this.src='img/no-image.png'\" />");
         document.write( "        </a>" );
         document.write( "    </div>" );
         document.write( "    <article class=\"area-article\">" );
+        document.write( "        <div class=\"row area-date\">" );
+        document.write( "           <time class=\"row date\" datetime=\"2011-11\" >" );
+        document.write( "               "+ proj.date.month +"-"+ proj.date.year );
+        document.write( "           </time>" );
+        document.write( "        </div>" );
         document.write( "        <div class=\"row row-2\">" );
         document.write( "            <article class=\"row title\"><p>"+ proj.title +"</p></article>" );
         document.write( "            <article class=\"row detail\">" );
