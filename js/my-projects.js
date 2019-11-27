@@ -178,3 +178,14 @@ AddProjects
     "Oh! If your wonder about My Blog Of Arts, "+
     "<a href=\"http://kaearts.blogspot.com/\" target=\"_blank\">click here</a>."
 );
+
+AddProjects
+( 
+    "Realtime Continuous LOD Quadtrees Terrain Rendering"
+,   { month: "Sep", year:  "2016" }
+,   [ "C++", "OpenGL 4.0", "Xcode" ]
+,   [ ]
+,   "proj-url"
+,   "proj-img"
+,   "Takes a square grid mesh, and a height map. Use height map image to displace vertex position height component. Quadtree-based LOD algorithm to subdivide grid mesh into smaller grid square base on the viewers position. This is done by including and excluding vertex indices from the grid mesh." 
+);
