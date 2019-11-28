@@ -126,6 +126,17 @@ AddProjects
 ,   "My Intro to Computer Graphics course project. This was the final project. Everyone was free to their own thing using prior knowledge and what they have learned throughout the course. The purpose was to be creative. I had prior experience in 3D graphics programming with modern OpenGL 4.0 studying on my own. The purpose of taking this course was to see if there is anything technique thought that I may not know yet. Long story short there wasn't much, but I had fun making this scene. I did a scene base on Christmas, since it was that time of the year. It supports a free camera with rotation, so your able to move around in 3D space in any direction." 
 );
 
+AddProjects
+( 
+    "Realtime Continuous LOD Quadtrees Terrain Rendering"
+,   { month: "Sep", year:  "2016" }
+,   [ "C++", "OpenGL 4.0", "Xcode" ]
+,   [ ]
+,   "proj-url"
+,   "landscape-0.png"
+,   "Takes a square grid mesh, and a height map. Use height map image to displace vertex position height component. Quadtree-based LOD algorithm to subdivide grid mesh into smaller grid square base on the viewers position. This is done by including and excluding vertex indices from the grid mesh." 
+);
+
 
 AddProjects
 ( 
@@ -177,15 +188,4 @@ AddProjects
     "<a href=\"https://artwork-template-dark.blogspot.com/\" target=\"_blank\">Dark Version</a>. "+
     "Oh! If your wonder about My Blog Of Arts, "+
     "<a href=\"http://kaearts.blogspot.com/\" target=\"_blank\">click here</a>."
-);
-
-AddProjects
-( 
-    "Realtime Continuous LOD Quadtrees Terrain Rendering"
-,   { month: "Sep", year:  "2016" }
-,   [ "C++", "OpenGL 4.0", "Xcode" ]
-,   [ ]
-,   "proj-url"
-,   "proj-img"
-,   "Takes a square grid mesh, and a height map. Use height map image to displace vertex position height component. Quadtree-based LOD algorithm to subdivide grid mesh into smaller grid square base on the viewers position. This is done by including and excluding vertex indices from the grid mesh." 
 );
