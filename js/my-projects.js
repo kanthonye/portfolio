@@ -133,7 +133,7 @@ AddProjects
 ,   [ "C++", "OpenGL 4.0", "Xcode" ]
 ,   [ ]
 ,   "proj-url"
-,   "landscape-0.png"
+,   "img/landscape-0.png"
 ,   "Takes a square grid mesh, and a height map. Use height map image to displace vertex position height component. Quadtree-based LOD algorithm to subdivide grid mesh into smaller grid square base on the viewers position. This is done by including and excluding vertex indices from the grid mesh." 
 );
 
