@@ -94,9 +94,9 @@ add_employment
 , "Jul", 2014
 , "Sep", 2014
 , [
-  "Using HTML and CSS to revamp the college tutor website by enhancing its user’s interface.",
-  "Adding error prompting / authentication to online surveys with JavaScript.",
-  "Developing an hourly base time system, to track the tutor time spent with students, and display results in a tubular form." 
+  "Developed landing pages, dashboards and online applications using Javascript, HTML and CSS.",
+  "Developed user interfaces with modern JavaScript frameworks, HTML and CSS.",
+  "Used newly learned programming capabilities in PHP, SQL and JavaScript to develop a scheduling system." 
 ] );
 
 
