@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Bubbler+One|Denk+One|Erica+One|Modak|Ribeye&display=swap" rel="stylesheet">
 <style>
 body{
+    background-image: linear-gradient(#800087, #ec00df);
     font-family: 'Ribeye', cursive;
     position: relative;
     margin: 0px;
@@ -55,9 +56,8 @@ p
 .grad 
 {
     position: relative;
-    background-image: linear-gradient(#800087, #ec00df);
     width: 100%;
-    height:1400px;
+    height:1800px;
 }
 .flyer
 {
@@ -88,6 +88,16 @@ p
     height: 900px;
     bottom: 0px;
 }
+
+
+.flyer_intro
+{
+    position: absolute;
+    bottom: 1000px;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
 .title1
 {
     position: relative;
@@ -112,17 +122,26 @@ p
     width: 500px;
     float:none;
 }
+
+
 .babystroller
 {
-    display:block;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    top: 200px;
+    position: absolute;
+    bottom: 550px;
     height: 500px;
-    width: 500px;
+    width: 100%;
     float:none;
 }
+.babystroller img
+{
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    height: 500px;
+    width: 500px;
+}
+
+
 .font_BigShoulders, .address, .club-semantics
 {
     font-family: 'Big Shoulders Text', cursive;
@@ -253,7 +272,7 @@ p
 }
 .address
 {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: -15px;
     padding-bottom: 10px;
     color: white;
@@ -276,11 +295,18 @@ div
     <div class="flyer">
 
         <div class="terrain"></div>
-        <div class="title1 text_size1 font_Ribeye"><p>Join Us in Celebrating A</p></div>
-        <div class="title1 text_size3 font_Modak" style="margin-top: -30px;"><p>Baby Shower</p></div>
-        <div class="title1 text_size1 font_Ribeye" style="margin-top: -40px;"><p>Honoring</p></div>
-        <div class="title1 text_size2 font_Modak" style="margin-top: -25px;"><p>Amirah</p></div>
-        <img class="babystroller" src="stroller.png"/>
+
+        
+        <div class="flyer_intro">
+            <div class="title1 text_size1 font_Ribeye"><p>Join Us in Celebrating A</p></div>
+            <div class="title1 text_size3 font_Modak" style="margin-top: -30px;"><p>Baby Shower</p></div>
+            <div class="title1 text_size1 font_Ribeye" style="margin-top: -40px;"><p>Honoring</p></div>
+            <div class="title1 text_size2 font_Modak" style="margin-top: -25px;"><p>Amirah</p></div>
+        </div>
+
+        <div class="babystroller">
+            <img src="stroller.png"/>
+        </div>
 
         <div class="info-section">
             <div class="row">
@@ -308,7 +334,7 @@ div
                 <div class="row place">
                     <p><span class="club-semantics">At Club</span> <span class="club-name">All Nation</span></p> 
                 </div>
-                <div class="row address">1091 Utica Ave, Brooklyn, NY, 11203</div>
+                <address class="row address">1091 Utica Ave, Brooklyn, NY, 11203</address>
             </div>
 
             <div class="row center registry">
