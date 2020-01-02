@@ -15,23 +15,14 @@ body{
 }
 a
 {
-    display: block;
     color: #fbc000;
     text-decoration: none;
-    background-color: #fbc000;
-    color: #000;
-    text-shadow: #000 0px 0px 1px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    width: 300px;
-    margin: auto;
 }
 a:hover
 {
-    background-color: #169898;
     color: #53fffe;
-    text-shadow: #000 0px 0px 1px;
 }
+
 p
 {
     padding: 0px;
@@ -53,6 +44,70 @@ p
     width: 100%;
     text-align: center;
 }
+
+.button
+{
+    display: block;
+    color: #fbc000;
+    text-decoration: none;
+    background-color: #fbc000;
+    color: #000;
+    text-shadow: #000 0px 0px 1px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    width: 300px;
+    margin: auto;
+}
+.button:hover
+{
+    background-color: #169898;
+    color: #53fffe;
+    text-shadow: #000 0px 0px 1px;
+}
+
+
+.font_BigShoulders, .address, .club-semantics
+{
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.font_BubblerOne
+{
+    font-family: 'Bubbler One', sans-serif;
+}
+.font_EricaOne, .club-name
+{
+    font-family: 'Erica One', cursive;
+}
+.font_Modak
+{
+    font-family: 'Modak', cursive;
+}
+.font_DenkOne
+{
+    font-family: 'Denk One', sans-serif;
+}
+.font_Ribeye
+{
+    font-family: 'Ribeye', cursive;
+}
+.biggest_font
+{
+    font-size: 130px;
+}
+.biggerbig_font
+{
+    font-size: 100px;
+}
+.bigger_font
+{
+    font-size: 70px;
+}
+.big_font
+{
+    font-size: 50px;
+}
+
 .grad 
 {
     position: relative;
@@ -142,74 +197,10 @@ p
 }
 
 
-.font_BigShoulders, .address, .club-semantics
-{
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.font_BubblerOne
-{
-    font-family: 'Bubbler One', sans-serif;
-}
-.font_EricaOne, .club-name
-{
-    font-family: 'Erica One', cursive;
-}
-.font_Modak
-{
-    font-family: 'Modak', cursive;
-}
-.font_DenkOne
-{
-    font-family: 'Denk One', sans-serif;
-}
-.font_Ribeye
-{
-    font-family: 'Ribeye', cursive;
-}
-
-.info
-{
-    color: white;
-}
-
-.text_size3
-{
-    font-size: 100px;
-}
-.text_size2
-{
-    font-size: 80px;
-}
-.text_size1
-{
-    font-size: 40px;
-}
-
-
-
-.biggest_font, .day
-{
-    font-size: 130px;
-}
-.biggerbig_font
-{
-    font-size: 100px;
-}
-.bigger_font, .time
-{
-    font-size: 70px;
-}
-.big_font, .year, .month
-{
-    font-size: 50px;
-}
-
-
 
 .date_time
 {
-    padding-top: 50px;
+    height: 120px;
     width:500px; 
     overflow:hidden;
     border-bottom: #fff solid 5px;
@@ -233,6 +224,7 @@ p
 {
     font-family: 'Big Shoulders Text', cursive;
     padding-left: 20px;
+    padding-top: 40px;
     float: right;
 }
 
@@ -272,7 +264,7 @@ p
 }
 .address
 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: -15px;
     padding-bottom: 10px;
     color: white;
@@ -312,19 +304,19 @@ div
             <div class="row">
                 <div class="center date_time">
                     <div class="col">
-                        <div class="col day">
+                        <div class="col day biggest_font">
                             2
                         </div>
                         <div class="col">
-                            <div class="row month">
+                            <div class="row month big_font">
                                 FEB
                             </div>
-                            <div class="row year">
+                            <div class="row year big_font">
                                 2020
                             </div>
                         </div>
                     </div>
-                    <div class="col time">
+                    <div class="col time bigger_font">
                         5PM - 12PM
                     </div>
                 </div>
@@ -334,11 +326,13 @@ div
                 <div class="row place">
                     <p><span class="club-semantics">At Club</span> <span class="club-name">All Nation</span></p> 
                 </div>
-                <address class="row address">1091 Utica Ave, Brooklyn, NY, 11203</address>
+                <div class="row address">
+                    <a href="https://goo.gl/maps/tWnR8gLknt7xodkUA">1091 Utica Ave, Brooklyn, NY, 11203</a>
+                </div>
             </div>
 
             <div class="row center registry">
-                <a href="https://www.buybuybaby.com/store/giftRegistry/viewRegistryOwner/myItems/548351610">BuyBuyBaby Registry</a>
+                <a class="button" href="https://www.buybuybaby.com/store/giftRegistry/viewRegistryOwner/myItems/548351610">BuyBuyBaby Registry</a>
             </div>
             <div class="row center registry">
                 <p> (347) 471-9041</p>
