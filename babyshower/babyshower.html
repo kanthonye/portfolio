@@ -45,6 +45,34 @@ p
     text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
+.wrapper
+{ 
+  padding: 20px;     
+} 
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 50px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 150px rgba(255, 255, 255, 0);
+  }
+}
+
+
 .button
 {
     display: block;
@@ -144,13 +172,55 @@ p
     width: 100%;
     float:none;
 }
-.babystroller img
+.center_block
 {
     margin-right: auto;
     margin-left: auto;
     display:block;
-    height: 500px;
-    width: 500px;
+    height: 489px;
+    width: 400px;
+}
+.babystroller img
+{
+    margin-left: -20%;
+    height: 100%;
+    width: 100%;
+}
+.glow_sphere
+{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-top: -100%;
+    border-radius: 50%;
+    box-shadow:inset #FF6AFF 0px 0px 100px;
+    height: 400px;
+    width: 400px;
+}
+.glow_sphere2
+{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-top: -100%;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    box-shadow: #FF6AFF 0px 0px 100px;
+}
+.glow_sphere3
+{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+    margin-top: -100%;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    animation: shadow-pulse 1s infinite;
 }
 
 
@@ -214,16 +284,12 @@ p
 }
 .place
 {
-    margin-top: -10px;
+    margin-top: 0px;
 }
-.club-semantics
-{
-    font-family: 'Denk One', sans-serif;
-    font-size: 30px;
-    color: white;
-}
+
 .club-name
 {
+    font-family: 'Denk One', sans-serif;
     font-size: 60px;
     color: white;
 }
@@ -261,9 +327,14 @@ div
             </div>
 
             <div class="babystroller">
-                <img src="stroller.png"/>
+                <div class="center_block">
+                    <img src="stroller.png"/>
+                    <div class="glow_sphere"></div>
+                    <div class="glow_sphere2"></div>
+                    <div class="glow_sphere3"></div>
+                </div>
             </div>
-
+            
             <div class="info-section">
                 <div class="row">
                     <div class="center date_time">
@@ -288,7 +359,7 @@ div
                     
                 <div class="row center location">
                     <div class="row place">
-                        <p><span class="club-semantics">At Club</span> <span class="club-name">All Nation</span></p> 
+                        <p><span class="club-name">At Club All Nation</span></p> 
                     </div>
                     <div class="row address">
                         <a href="https://goo.gl/maps/tWnR8gLknt7xodkUA">1091 Utica Ave, Brooklyn, NY, 11203</a>
