@@ -144,7 +144,7 @@ AddProjects
 ,   [ ]
 ,   "proj-url"
 ,   "proj-img"
-,   "Since my OBJ File Parser, I need a way to load 3D Animations into my 3D scene. I wanted to use a common file extension. One that is supported in 3D modeling program Blender. I decided to go with the Collada file format, because it is in XML, and I had already written an XML parser. The Collada parser parses geometries, cameras, lights, controllers, animations, and scene data. Trying to get the animation part to animate properly was a difficult task. It took at least 3 attempts before figuring out that the problem was an error with my quaternion rotation." 
+,   "I have fun working on 3D graphics programs. It is what I do in my spear time when I’m not occupied by other things. I had written 3D geometry parser before for the .obj file. However, that file format does not support 3D animation data, and I want to animate my 3D objects. So, I wrote my own Collada file parser that parsers geometries, animations, controllers, and scene data from the file. Though, I had to write and XML file parser before hand, since the file data is in XML. The parser is written in C++." 
 );
 
 AddProjects
@@ -166,7 +166,7 @@ AddProjects
 ,   [ ]
 ,   "proj-url"
 ,   "proj-img"
-,   "This is one of the first file parser I have ever constructed. This project is a simple utility to be used with my 3D rendering projects. It is a simple parser to load complex 3D model aside form the basic shapes my program generates. It loads OBJ files .obj mesh objects and .mtl materials objects." 
+,   "Rendering multiple lights a few boxes and some spheres is cool and all. But rendering more complex 3d objects, rendering a scene is even cooler. Game Programming and Engine development has been an interest of mind for many years now. After graduating LaGuardia Community College, I was eager to learn 3D graphics programming. One thing that always come up while learning the OpenGL API is how to render more complex objects. Doing some research lead me to the OBJ file format. There is many information on the web about this, which was plenty of help while writing my first parser. The parser for this project is written in C++." 
 );
 
 
