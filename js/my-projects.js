@@ -86,11 +86,7 @@ AddProjects
 ,   [ ]
 ,   "#"
 ,   "img/site-img.png"
-,   "My web portfolio is my place on the internet where I showcase my work, art and "+
-    "ambitions in science. Since completing the requirement for my Bachelors' Degree "+
-    "in Computer Science @ Queens College, I wanted to start sending out applications "+
-    "and needed a place that make it easy to show and tell employer about myself, my "+
-    "work, my art and ambitions in science. So I build this portfolio. From Scratch ( ^_^)."
+,   "The technologies use in for project are JavaScript, HTML, CSS. JavaScript is used to display certain information, like my project entries, banner links text effect, also add a few effects like smooth scroll, and page rearrangement when resized. CSS is used to adds the styled layout and color theme."
 );
 
 AddProjects
@@ -101,7 +97,7 @@ AddProjects
 ,   [ { icon: "github", url: "https://github.com/kanthonye/school-projects/tree/master/qc/CS316/Interpreter" } ]
 ,   "https://github.com/kanthonye/school-projects/tree/master/qc/CS316/Interpreter"
 ,   "img/proj-interpreter-316.png"
-,   "My Principles of Programming Languages course project. Before taking this course, I use to write brute force parsers. By brute force parsers I mean parsing character by character line by line looking for special characters or phrases. Its harder to do it this way, and not scalable. This course thought me how to use DFAs to build parsers to parse any programming, script, or markup language plus an interpreter to execute instruction from that language. This was one of the most fun and exciting school projects I have done. There was a lot of enlightenment happening with me in this course. And if you know me, you know I am into game development, and like doing things from scratch. With the new powers I have gained, I can write my own scripting language along with parser and interpreter for my other projects more efficiently."
+,   "Principles of Programming Languages course project, while I was attending Queen College. I was the only one to write this project in C++. Everyone else code it in Java which the professors sample code is written in. This project comes in 4 stages. The first is to build a DFA for the type free programming language, a language similar to Python and JavaScript. The next is to write a parser to parse instructions from the language. The 3rd stage is to write an interpreter to interpret the instructions parsed from the language. The 4th and final stage is to support array allocation and index operations."
 );
 
 AddProjects
@@ -123,7 +119,9 @@ AddProjects
 ,   [ { icon: "github", url: "https://github.com/kanthonye/school-projects/blob/master/qc/CS368/Basic3DInteractEnvironment.cpp" } ]
 ,   "https://github.com/kanthonye/school-projects/blob/master/qc/CS368/Basic3DInteractEnvironment.cpp"
 ,   "img/simple-scene.gif"
-,   "My Intro to Computer Graphics course project. This was the final project. Everyone was free to their own thing using prior knowledge and what they have learned throughout the course. The purpose was to be creative. I had prior experience in 3D graphics programming with modern OpenGL 4.0 studying on my own. The purpose of taking this course was to see if there is anything technique thought that I may not know yet. Long story short there wasn't much, but I had fun making this scene. I did a scene base on Christmas, since it was that time of the year. It supports a free camera with rotation, so your able to move around in 3D space in any direction." 
+,   "My Intro to Computer Graphics course project. A project done while attending Queens College. While there was more project done for this course. This one was one of my favorite during the course. It was the final project. This one is done using the OpenGL Graphics API version 2.1, and programming language C++. The premise for this project is to use prior knowledge and what you’ve learn throughout the course to build something in 2D or 3D. I had prior experience in 3D graphics programming with modern OpenGL, experience gain on my own before this course. I build a 3D scene made up of a snowman, table, chairs, a rotating ceiling fan, and a free moving 3D camera to move around the scene with." +
+    "\n" +
+    "Note: all object in the scene were built manually." 
 );
 
 AddProjects
